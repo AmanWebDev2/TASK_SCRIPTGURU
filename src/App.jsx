@@ -4,6 +4,7 @@ import CustomCarousel from './components/CustomCarousel'
 import Footer from './components/Footer'
 import Slider from './components/Slider'
 import { data } from './products/shoes'
+import Categories from './components/Categories'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <CustomCarousel/>
       </div>
       <Slider data={data}/>
+      <Categories/>
       <Footer/>
     </main>
   )
