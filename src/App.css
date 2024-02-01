@@ -175,3 +175,15 @@ footer p:hover:not(.add){
 .sub div {
     box-shadow: 0 8px 8px 1px rgba(0,0,0,.3)
 }
+
+.rest .item {
+    min-width: 50px;
+    cursor: pointer;
+}
+
+.header-m {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 350px;
+}

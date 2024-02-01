@@ -7,14 +7,10 @@ const NavBar = () => {
   const [openLogin,setOpenLogin] = useState(false);
   const [openOption,setOpenOption] = useState(false);
 
-  const handleMouseLeave=(e)=>{
-    setOpenLogin(false)
-  }
-
   return (
     <header className="p-4">
-      <div className="row border p-2">
-        <div className="col-2">
+      <div className="header-m border p-2">
+        <div className="">
           <Logo/>
          </div>
         <div className="input d-none d-lg-block col-lg-5">
@@ -28,25 +24,25 @@ const NavBar = () => {
           </InputGroup>
         </div>
         <div className="rest col">
-          <div className="row">
+          <div className="d-flex align-items-center justify-content-end gap-4">
 
-          <div className="login col">
+          <div className="login item">
             <Dropdown onMouseEnter={()=>setOpenLogin(true)} onMouseLeave={()=>setOpenLogin(false)} >
               <Button className="header-login-btn">
                 Login *
               </Button>
 
-              <ul className="login-menu" style={{ display: `${openLogin ? 'block': 'none'}`}} >
+              <ul className="login-menu " style={{ display: `${openLogin ? 'block': 'none'}`}} >
                 <li className="sub-list__header" href="#/action-1">Action </li>
                 <li className="sub-list__header" href="#/action-1">Action </li>
                 <li className="sub-list__header" href="#/action-1">Action </li>
               </ul>
             </Dropdown>
           </div>
-          <div className="cart col">Cart</div>
-          <div className="become-seller col">Become Seller</div>
-          <div className=" d-none d-lg-block  options col">
-            <div className="position-relative" onMouseEnter={()=>setOpenOption(true)} onMouseLeave={()=>setOpenOption(false)} >
+          <div className="cart item">Cart</div>
+          <div className="become-seller d-none d-lg-block item">Become Seller</div>
+          <div className=" d-none d-lg-block item options">
+            <div className="position-relative item" onMouseEnter={()=>setOpenOption(true)} onMouseLeave={()=>setOpenOption(false)} >
               <div>
                 :
               </div>
