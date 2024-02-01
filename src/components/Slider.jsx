@@ -1,14 +1,13 @@
 import React from 'react'
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
 const Slider = ({ data }) => {
   return (
     <div className='d-flex overflow_custom my-5'>
         {
-            data.map((item)=>{
+            data.map((item,i)=>{
                 return(
-                    <Card className='mx-3'
+                    <Card key={item.id * i} className='mx-3'
                     style={{
                         minWidth:'200px',
                         cursor:'pointer'

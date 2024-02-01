@@ -36,26 +36,26 @@ const Footer = () => {
         <div>
           <div className="my-3 title">Mail Us:</div>
           <div>
-            <p class="add"> Buildings Alyssa, Begonia &amp; </p>
-            <p class="add"> Clove Embassy Tech Village, </p>
-            <p class="add">Outer Ring Road, Devarabeesanahalli Village,</p>
-            <p class="add">Flipkart Internet Private Limited, </p>
-            <p class="add"> Bengaluru, 560103, </p>
-            <p class="add"> Karnataka, India</p>
+            <p className="add"> Buildings Alyssa, Begonia &amp; </p>
+            <p className="add"> Clove Embassy Tech Village, </p>
+            <p className="add">Outer Ring Road, Devarabeesanahalli Village,</p>
+            <p className="add">Flipkart Internet Private Limited, </p>
+            <p className="add"> Bengaluru, 560103, </p>
+            <p className="add"> Karnataka, India</p>
           </div>
         </div>
         <div>
           <div className="my-3 title">Registered Office Address</div>
           <div>
-            <p class="add">Flipkart Internet Private Limited, </p>
-            <p class="add"> Buildings Alyssa, Begonia &amp; </p>
-            <p class="add"> Clove Embassy Tech Village, </p>
-            <p class="add"> Outer Ring Road, Devarabeesanahalli Village, </p>
-            <p class="add"> Bengaluru, 560103, </p>
-            <p class="add"> Karnataka, India </p>
-            <p class="add"> CIN : U51109KA2012PTC066107 </p>
-            <p class="add"></p>
-            <p class="add">
+            <p className="add">Flipkart Internet Private Limited, </p>
+            <p className="add"> Buildings Alyssa, Begonia &amp; </p>
+            <p className="add"> Clove Embassy Tech Village, </p>
+            <p className="add"> Outer Ring Road, Devarabeesanahalli Village, </p>
+            <p className="add"> Bengaluru, 560103, </p>
+            <p className="add"> Karnataka, India </p>
+            <p className="add"> CIN : U51109KA2012PTC066107 </p>
+            <p className="add"></p>
+            <p className="add">
               {" "}
               Telephone: <a href="tel:044-45614700">044-45614700</a>
             </p>
