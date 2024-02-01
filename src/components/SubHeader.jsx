@@ -16,14 +16,14 @@ const SubHeader = () => {
   };
 
   return (
-    <div className="container">
-      <div className="row sub-header">
+    <div className="container my-5">
+      <div className="row-lg sub-header">
         {data.names.map((item, i) => {
           return (
             <div
               key={i}
               data-id={item.id}
-              className="col"
+              className="col-lg"
               onMouseEnter={(e) => handleMouseEnter(e, item)}
               onMouseLeave={() => {
                 setShow(false)

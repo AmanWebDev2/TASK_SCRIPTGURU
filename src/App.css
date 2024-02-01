@@ -147,7 +147,11 @@ footer p:hover:not(.add){
 .sub-header{
     display:flex;
     overflow-x:scroll;
+}
+
+.sub-header div{
     pointer-events:none !important;
+
 }
 
 .sub-header div {
@@ -163,8 +167,16 @@ footer p:hover:not(.add){
 }
 
 @media (min-width: 992px) {
-    .sub-header{
+    .sub-header div{
         pointer-events: visible !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .sub-header{
+        display: flex !important;
+        flex-direction: row;
+        overflow-x: scroll;
     }
 }
 
